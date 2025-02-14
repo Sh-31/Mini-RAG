@@ -8,14 +8,14 @@ class ProjectController(BaseController):
         super().__init__()
     
 
-    def get_project_path(self, project_id: str):
+    def get_project_path(self, file_dir: str):
         
-        project_dir = self.file_dir / project_id
+        new_file_dir = self.file_dir_parent / file_dir
 
-        if not project_dir.exists():
+        if not new_file_dir.exists():
 
-            project_dir.mkdir(parents=True, exist_ok=True)
+            new_file_dir.mkdir(parents=True, exist_ok=True)
 
-        return project_dir
+        return new_file_dir
     
 
