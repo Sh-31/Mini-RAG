@@ -1,7 +1,5 @@
 from enum import Enum
 
-
-
 class ResponesSignal(Enum):
 
     FILE_VAILDTATED_SUCCESS: str = "FILE_VAILDTATED_SUCCESS"
@@ -12,3 +10,6 @@ class ResponesSignal(Enum):
  
     PROCESSING_SUCCESS: str = "PROCESS_SUCCESS"
     PROCESSING_FAILED: str = "PROCESS_FAILED"
+
+    NO_FILES_ERROR : str = "NO_FILES_ERROR"
+    FILE_ID_ERROR : str = "FILE_ID_ERROR"
