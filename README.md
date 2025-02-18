@@ -1,6 +1,6 @@
 # Mini-RAG
 
-This is a minimal implementation of the RAG model for question answering.
+This is a minimal implementation of the RAG model for question answering based of Eng.Abu Bakr Soliman [`Mini-RAG` tutorial](https://www.youtube.com/playlist?list=PLvLvlVqNQGHCUR2p0b8a0QpVjDUg50wQj)
 
 ## Requirements
 
